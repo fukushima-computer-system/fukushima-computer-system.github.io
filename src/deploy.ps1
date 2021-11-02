@@ -1,0 +1,1 @@
+﻿Copy-Item -Recurse -Path dist/* -Destination ../

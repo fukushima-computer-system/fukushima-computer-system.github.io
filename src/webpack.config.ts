@@ -1,7 +1,7 @@
 ﻿import path from "path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
-import CopyWebpackPlugin from "copy-webpack-plugin";
+// import CopyWebpackPlugin from "copy-webpack-plugin";
 
 module.exports = {
     entry: ["react-hot-loader/patch", path.resolve(__dirname, "./index.tsx")],
